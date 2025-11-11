@@ -47,6 +47,8 @@ This course is a fun-filled whirlwind tour that spans 30 hours, covering everyth
 
 ## How to Use:
 
+### Option 1: Using Obsidian (Recommended for Note-Taking)
+
 To clone this repository and integrate it with Obsidian, follow these steps:
 
 1. Open Git Bash on your computer.
@@ -62,7 +64,33 @@ To clone this repository and integrate it with Obsidian, follow these steps:
 6. Go to "Settings" > "File Sync" in Obsidian and set the local folder to the location of your cloned repository.
 7. Move the cloned repository into your Obsidian vault directory.
 8. Sync your Obsidian vault with the contents of the cloned repository.
-   Once you've completed these steps, your Obsidian vault should be integrated with the repository, allowing you to access and work with the contents seamlessly. It should look like this:
+   Once you've completed these steps, your Obsidian vault should be integrated with the repository, allowing you to access and work with the contents seamlessly.
+
+### Option 2: Using VS Code (Recommended for Coding)
+
+To use this repository with VS Code:
+
+1. Clone the repository using Git Bash:
+
+   ```bash
+   git clone https://github.com/JyotirmoyDas05/NPTEL-The-Joy-of-Computing-using-Python.git
+   ```
+
+2. Download and install [Visual Studio Code](https://code.visualstudio.com/).
+3. Open VS Code and go to **File** > **Open Folder**, then select the cloned repository.
+4. Install the following recommended extensions for the best experience:
+
+   - **[Excalidraw](https://marketplace.visualstudio.com/items?itemName=pomdtr.excalidraw-editor)** - For viewing and editing `.excalidraw` diagram files
+   - **[vscode-pdf](https://marketplace.visualstudio.com/items?itemName=tomoki1207.pdf)** - For viewing `.pdf` files directly in VS Code
+   - **[Markdown All in One](https://marketplace.visualstudio.com/items?itemName=yzhang.markdown-all-in-one)** - For enhanced markdown editing
+   - **[Python](https://marketplace.visualstudio.com/items?itemName=ms-python.python)** - For running and editing Python source codes
+
+5. Once the extensions are installed, you can view all markdown notes, run Python scripts, view PDFs, and edit Excalidraw diagrams directly in VS Code.
+
+Both options work great! Choose based on your preference:
+
+- **Obsidian**: Better for note-taking, linking notes, and knowledge management
+- **VS Code**: Better for coding, debugging, and technical development
 
 ## Screenshots
 
