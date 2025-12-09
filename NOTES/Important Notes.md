@@ -40,4 +40,66 @@ number ="one"
   # Dictinary
   student_info = {'Alice': 85, 'Bob': 92, 'Charlie': 78, 'David': 88}
   ```
+
+- Another built-in Python data type is the `set`, which stores an _un-ordered_ list of _unique_ items. Being unordered, sets do not record element position or order of insertion and so do not support indexing.
   
+  ```python
+  s = { 2, 5, 7, 11}
+  s
+  ```
+  
+  ```
+  # Output
+  {2, 5, 7, 11}
+  ```
+
+---
+
+```python
+{1, 2, 3} == {3, 2, 1}
+```
+
+```
+ # Output
+ True
+```
+
+---
+
+```python
+[1, 2, 3] == [3, 2, 1]
+```
+
+```
+  # Output
+  False
+```
+
+---
+
+```python
+s.add(2)  # does nothing
+s
+```
+
+```
+# Output
+{2, 5, 7, 11}
+```
+
+---
+
+```python
+s[0]
+```
+
+```
+---------------------------------------------------------------------------
+TypeError                                 Traceback (most recent call last)
+<ipython-input-93-c9c96910e542> in <module>
+----> 1 s[0]
+
+TypeError: 'set' object is not subscriptable
+```
+
+
