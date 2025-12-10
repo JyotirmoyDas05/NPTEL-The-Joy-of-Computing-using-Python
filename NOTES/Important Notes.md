@@ -103,3 +103,35 @@ TypeError: 'set' object is not subscriptable
 ```
 
 
+---
+
+## Question Practice
+
+1. Takes an integer n and prints the sum of numbers from 1 to n using a for loop.
+   
+   ```python
+   def sum_of_numbers(n):
+    total = 0
+    for i in range(1, n + 1):
+        total += i
+    return total
+
+print("Sum of numbers from 1 to 10 is:", sum_of_numbers(10))
+   ```
+   
+   
+2. Using a while loop, keep taking input until the user enters "stop", then print how many valid inputs (not "stop") were given.
+   
+   ```python
+   def count_inputs():
+    count = 0
+    while True:
+        user_Input = input("Enter something (type 'stop' to end): ")
+        if user_Input.lower() == "stop":
+            break
+        else:
+            count += 1
+    print("Number of valid inputs till 'stop':", count)
+
+count_inputs()
+   ```
