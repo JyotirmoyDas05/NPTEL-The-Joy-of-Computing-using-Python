@@ -111,10 +111,10 @@ TypeError: 'set' object is not subscriptable
    
    ```python
    def sum_of_numbers(n):
-    total = 0
-    for i in range(1, n + 1):
-        total += i
-    return total
+      total = 0
+      for i in range(1, n + 1):
+        total += i
+      return total
 
 print("Sum of numbers from 1 to 10 is:", sum_of_numbers(10))
    ```
